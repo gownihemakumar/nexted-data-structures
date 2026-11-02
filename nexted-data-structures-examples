@@ -1,0 +1,61 @@
+1.
+students = [
+    ["Ravi", 20, 85],
+    ["Kumar", 21, 90],
+    ["Priya", 19, 95]
+]
+
+print(students)
+print(students[0])
+print(students[0][0])
+
+
+2.
+students = {
+    "student1": {
+        "name": "Ravi",
+        "age": 20,
+        "marks": 85
+    },
+    "student2": {
+        "name": "Priya",
+        "age": 19,
+        "marks": 95
+    }
+}
+
+print(students["student1"]["name"])
+print(students["student2"]["marks"])
+
+
+3.employee = {
+    "name": "Hema",
+    "skills": ["Python", "SQL", "HTML"],
+    "salary": 25000
+}
+
+print(employee["name"])
+print(employee["skills"])
+print(employee["skills"][0])
+
+
+4.
+employees = [
+    {"name": "Ravi", "salary": 25000},
+    {"name": "Kumar", "salary": 30000},
+    {"name": "Priya", "salary": 35000}
+]
+
+for employee in employees:
+    print(employee["name"], employee["salary"])
+
+
+5.
+data = (
+    ("Ravi", 20),
+    ("Kumar", 21),
+    ("Priya", 19)
+)
+
+print(data[0])
+print(data[1][0])
